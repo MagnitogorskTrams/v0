@@ -1,0 +1,223 @@
+<map name="map">
+
+
+<!-- От Зеленого лога до Коробова -->
+<area shape="rect" coords="142,1446,165,1459" href="raspisanie/zl.xls" alt="Зелёный лог">
+<area shape="rect" coords="60,1379,141,1403" href="raspisanie/50lm.xls" alt="50 Лет магнитки">
+<area shape="rect" coords="123,1410,179,1426" href="raspisanie/144mr.xls" alt="144 м.район">
+<area shape="rect" coords="125,1353,180,1369" href="raspisanie/141mr.xls" alt="141 м.район">
+
+<area shape="rect" coords="143,1324,183,1347" href="raspisanie/kp.xls" alt="Курортная поликлиника">
+<area shape="rect" coords="231,1326,278,1349" href="raspisanie/zukova.xls" alt="Жукова">
+<area shape="rect" coords="315,1324,351,1347" href="raspisanie/truda25.xls" alt="Труда 25">
+<area shape="rect" coords="359,1326,381,1344" href="raspisanie/romanova.xls" alt="Романова">
+<area shape="rect" coords="392,1327,422,1350" href="raspisanie/romasan.xls" alt="шк. Ромазана">
+<area shape="rect" coords="437,1325,462,1349" href="raspisanie/stan.xls" alt="Станичная">
+<area shape="rect" coords="473,1328,499,1347" href="raspisanie/kalmikova.xls" alt="Калмыкова">
+<area shape="rect" coords="485,1361,519,1379" href="raspisanie/137mr.xls" alt="137 м.район">
+<area shape="rect" coords="485,1385,522,1399" href="raspisanie/korobova.xls" alt="Коробова">
+<area shape="rect" coords="485,1417,523,1432" href="" alt="Сиреневый">
+
+
+
+
+
+
+<!-- От Тевосяна по Советской -->
+<area shape="rect" coords="90,1326,115,1342" href="raspisanie/tevosyana.xls" alt="Тевосяна">
+<area shape="rect" coords="115,1299,143,1319" href="raspisanie/132mr.xls" alt="132м.район">
+<area shape="rect" coords="120,1202,149,1221" href="raspisanie/plavbaseyn.xls" alt="Плавательный бассейн">
+<area shape="rect" coords="157,1110,191,1129" href="raspisanie/domenchikov.xls" alt="Доменщиков">
+
+<area shape="rect" coords="188,1042,216,1063" href="raspisanie/tss.xls" alt="ТСС">
+<area shape="rect" coords="177,978,202,997" href="raspisanie/stalevarov.xls" alt="Сталеваров">
+<area shape="rect" coords="163,921,191,945" href="raspisanie/126mr.xls" alt="126м.район">
+<area shape="rect" coords="158,883,183,904" href="raspisanie/lesoparkovaja.xls" alt="Лесопарковая">
+
+<area shape="rect" coords="146,824,176,843" href="raspisanie/persovets.xls" alt="Переулок Советский">
+<area shape="rect" coords="130,754,161,783" href="raspisanie/msch.xls" alt="МСЧ">
+<area shape="rect" coords="124,714,153,736" href="raspisanie/grjaznova.xls" alt="Грязнова">
+<area shape="rect" coords="130,673,151,694" href="raspisanie/agapitova.xls" alt="школа Агапитова">
+
+
+<area shape="rect" coords="130,616,154,636" href="raspisanie/gpravda.xls" alt="им. газеты Правда">
+<area shape="rect" coords="125,570,154,591" href="raspisanie/magnitostroy.xls" alt="Магнитострой">
+<area shape="rect" coords="128,538,157,557" href="raspisanie/komarova.xls" alt="Комарова">
+<area shape="rect" coords="129,496,154,515" href="raspisanie/tamoznja.xls" alt="Таможня">
+
+<area shape="rect" coords="125,408,156,422" href="raspisanie/kalinina.xls" alt="Калинина">
+<area shape="rect" coords="130,347,154,364" href="raspisanie/timirjazeva.xls" alt="Тимирязева">
+<area shape="rect" coords="163,168,193,193" href="raspisanie/burda.xls" alt="им. Бурденко">
+<area shape="rect" coords="207,134,234,149" href="raspisanie/zelrinok.xls" alt="Зелёный рынок">
+
+<area shape="rect" coords="283,128,301,146" href="" alt="Вокзал">
+<area shape="rect" coords="323,127,346,148" href="raspisanie/chekalina.xls" alt="Чекалина">
+
+
+
+
+
+<!-- От Труда по К.Маркса до вокзала -->
+<area shape="rect" coords="345,1299,369,1318" href="raspisanie/truda.xls" alt="Труда">
+<area shape="rect" coords="345,1230,371,1251" href="raspisanie/brucheva.xls" alt="Б.Ручьева">
+<area shape="rect" coords="344,1155,367,1175" href="raspisanie/engelsa.xls" alt="Энгельса">
+<area shape="rect" coords="341,1098,368,1115" href="raspisanie/gdvor.xls" alt="Гостинный двор">
+
+<area shape="rect" coords="345,1047,371,1068" href="raspisanie/zavenjagina.xls" alt="Завенягина">
+<area shape="rect" coords="341,972,372,990" href="raspisanie/politexkoledg.xls" alt="Политехнический колледж">
+<area shape="rect" coords="346,878,372,902" href="raspisanie/sovarm.xls" alt="Советской армии">
+<area shape="rect" coords="344,789,373,816" href="raspisanie/km115.xls" alt="К.Маркса 115">
+
+<area shape="rect" coords="342,713,397,735" href="raspisanie/unost.xls" alt="Юнность">
+<area shape="rect" coords="345,655,370,679" href="raspisanie/druzba.xls" alt="Дружбы">
+<area shape="rect" coords="350,626,374,646" href="raspisanie/kuranti.xls" alt="Куранты">
+<area shape="rect" coords="348,596,374,612" href="raspisanie/gagarina.xls" alt="Гагарина">
+
+
+<area shape="rect" coords="346,567,375,583" href="raspisanie/zrinok.xls" alt="Центральный рынок">
+<area shape="rect" coords="347,541,373,559" href="raspisanie/km55.xls" alt="К.Маркса 55">
+<area shape="rect" coords="347,496,372,518" href="raspisanie/km55.xls" alt="к.Маркса 55">
+<area shape="rect" coords="352,344,375,363" href="raspisanie/komsomolskaja.xls" alt="Комсомольская">
+
+
+<area shape="rect" coords="352,302,374,315" href="raspisanie/komsomolskaja.xls" alt="Комсомольская">
+<area shape="rect" coords="349,246,375,271" href="raspisanie/operteatr.xls" alt="Оперный театр">
+<area shape="rect" coords="350,208,371,231" href="raspisanie/pervomayskaya.xls" alt="Первомайская">
+<area shape="rect" coords="353,149,372,169" href="raspisanie/vokzal.xls" alt="Вокзал">
+
+<!-- Казачья переправа -->
+
+<area shape="rect" coords="236,1066,269,1094" href="raspisanie/galiullina.xls" alt="Галиуллина">
+<area shape="rect" coords="373,1069,394,1092" href="raspisanie/xshool.xls" alt="Художественная школа">
+<area shape="rect" coords="428,1069,461,1092" href="raspisanie/xramv.xls" alt="Храм Вознесения">
+<area shape="rect" coords="492,1069,528,1092" href="raspisanie/stmagnitka.xls" alt="Старая Магнитка">
+<area shape="rect" coords="647,1039,673,1063" href="raspisanie/kazper.xls" alt="Казачья переправа">
+
+<area shape="rect" coords="678,1025,696,1051" href="raspisanie/griboedova.xls" alt="Грибоедова">
+<area shape="rect" coords="709,1010,730,1031" href="raspisanie/pkomunalniy.xls" alt="п.Комунальный">
+<area shape="rect" coords="736,995,755,1018" href="raspisanie/botkina.xls" alt="Боткина">
+<area shape="rect" coords="760,982,779,1004" href="raspisanie/sosna.xls" alt="Сосновая">
+
+
+<area shape="rect" coords="695,840,724,868" href="raspisanie/betonstroy.xls" alt="Бетонстрой">
+<area shape="rect" coords="763,843,797,870" href="raspisanie/profsouz.xls" alt="Профсоюзная">
+<area shape="rect" coords="807,919,831,962" href="raspisanie/magnitnaja.xls" alt="Магнитная">
+<area shape="rect" coords="813,971,830,990" href="raspisanie/trubnaja.xls" alt="Трубная">
+<area shape="rect" coords="832,1010,857,1030" href="raspisanie/majakovskogo.xls" alt="Маяковского">
+<area shape="rect" coords="883,1010,906,1037" href="raspisanie/plviktory.xls" alt="пл. Победы">
+<area shape="rect" coords="910,1087,929,1108" href="raspisanie/chaikovskogo.xls" alt="Чайковского">
+<area shape="rect" coords="934,1117,954,1137" href="raspisanie/frunze.xls" alt="Фрунзе">
+<area shape="rect" coords="966,1118,984,1138" href="raspisanie/polevaja.xls" alt="Полевая">
+
+
+
+<!-- От Полевой до РИС -->
+<area shape="rect" coords="1063,1114,1083,1137" href="raspisanie/1gorbolnitsa.xls" alt="1-ая Горбольница ">
+<area shape="rect" coords="1090,1116,1117,1138" href="raspisanie/ostrovskogo.xls" alt="Островского">
+<area shape="rect" coords="1116,1085,1143,1104" href="raspisanie/9jan.xls" alt="9 января">
+<area shape="rect" coords="117,1044,1142,1060" href="raspisanie/8marta.xls" alt="8 Марта">
+
+<area shape="rect" coords="1116,923,1146,943" href="raspisanie/kuzbaskaja.xls" alt="Кузбасская">
+<area shape="rect" coords="1118,856,1147,875" href="raspisanie/chernjaxovskogo.xls" alt="Черняховского">
+<area shape="rect" coords="1120,799,1147,818" href="raspisanie/sputnik.xls" alt="Спутник">
+<area shape="rect" coords="1116,749,1148,766" href="raspisanie/rembasa.xls" alt="Рем. база">
+<area shape="rect" coords="1100,717,1121,741" href="raspisanie/ris.xls" alt="РИС">
+
+
+
+
+<!-- От Грязнова в сторону ТЭЦ -->
+<area shape="rect" coords="162,739,188,761" href="raspisanie/graznova4.xls" alt="Грязнова 4">
+<area shape="rect" coords="241,735,273,762" href="raspisanie/konservatorija.xls" alt="Консерватория">
+<area shape="rect" coords="312,742,339,762" href="raspisanie/graznova37.xls" alt="Грязнова 37">
+<area shape="rect" coords="367,740,404,766" href="raspisanie/plmira.xls" alt="пл. Мира">
+<area shape="rect" coords="425,734,466,767" href="raspisanie/cirk.xls" alt="Цирк">
+<area shape="rect" coords="495,738,528,766" href="raspisanie/uzper.xls" alt="Южный переход">
+<area shape="rect" coords="647,742,677,765" href="raspisanie/tez.xls" alt="ТЭЦ">
+
+
+
+<!-- От Кирова в сторону Товарнаяй -->
+<area shape="rect" coords="822,826,853,851" href="raspisanie/kirova.xls" alt="Кирова">
+<area shape="rect" coords="839,794,874,815" href="" alt="Электросети">
+<area shape="rect" coords="863,764,897,783" href="raspisanie/kirova70.xls" alt="Кирова 70">
+<area shape="rect" coords="896,730,929,753" href="raspisanie/komsomolskajapl.xls" alt="Комсомольская площадь">
+<area shape="rect" coords="968,639,1002,664" href="raspisanie/avtobasa.xls" alt="Автобаза">
+<area shape="rect" coords="996,576,1027,599" href="raspisanie/lugovaja.xls" alt="Луговая">
+<area shape="rect" coords="1005,520,1038,540" href="raspisanie/avtoschool.xls" alt="Автошкола">
+<area shape="rect" coords="1014,491,1047,509" href="raspisanie/prokatmontaj.xls" alt="Прокатмонтаж">
+<area shape="rect" coords="1031,387,1062,410" href="raspisanie/brusok.xls" alt="П. Брускова">
+<area shape="rect" coords="1037,320,1070,346" href="raspisanie/berezki.xls" alt="Березки">
+<area shape="rect" coords="1045,273,1075,295" href="raspisanie/dmitrova.xls" alt="п. Дмитрова">
+<area shape="rect" coords="1013,155,1047,182" href="raspisanie/bashik.xls" alt="Башик">
+<area shape="rect" coords="1087,143,1117,161" href="raspisanie/tovarnaja.xls" alt="Товарная">
+
+
+
+<!-- От ЛПЦ до Новосеверного -->
+<area shape="rect" coords="695,16,722,39" href="raspisanie/lpz.xls" alt="ЛПЦ">
+<area shape="rect" coords="770,28,800,58" href="raspisanie/schedrina.xls" alt="С. Шедрина">
+<area shape="rect" coords="811,36,847,68" href="raspisanie/bahmeteva.xls" alt="Бахметьева">
+<area shape="rect" coords="827,87,866,114" href="raspisanie/novosevernij.xls" alt="п. Новосеверный">
+
+
+<!-- От Комсомольская до Центрального перехода -->
+<area shape="rect" coords="155,321,176,341" href="raspisanie/dostoevskogo.xls" alt="Достоевского">
+<area shape="rect" coords="248,315,278,344" href="raspisanie/suvorova.xls" alt="Суворова">
+<area shape="rect" coords="323,314,350,341" href="raspisanie/komsomolskaja.xls" alt="Комсомольская">
+<area shape="rect" coords="374,321,397,345" href="raspisanie/kmarksa.xls" alt="К.Маркса">
+<area shape="rect" coords="416,321,437,344" href="raspisanie/biblioteka.xls" alt="Библиотека">
+<area shape="rect" coords="447,316,471,345" href="raspisanie/kgorkogo.xls" alt="Кинотеатр Горького">
+<area shape="rect" coords="477,319,501,341" href="raspisanie/plsverdlova.xls" alt="пл. Свердлова">
+
+
+<!-- От Северный переход до Товарной -->
+
+<area shape="rect" coords="377,168,405,193" href="raspisanie/moskovskaja.xls" alt="Московская">
+<area shape="rect" coords="428,167,459,192" href="raspisanie/shiska.xls" alt="Н.Шишка">
+<area shape="rect" coords="493,153,512,173" href="raspisanie/ddn.xls" alt="Дворец дружбы народов">
+<area shape="rect" coords="510,147,523,168" href="raspisanie/himchistka.xls" alt="Химчистка">
+<area shape="rect" coords="522,137,538,164" href="raspisanie/garagi.xls" alt="Гаражи">
+<area shape="rect" coords="537,138,549,159" href="raspisanie/gpugacheva.xls" alt="гора Пугачева">
+<area shape="rect" coords="550,137,565,157" href="raspisanie/ovochex.xls" alt="Овощехранилище">
+<area shape="rect" coords="568,137,587,159" href="raspisanie/most.xls" alt="Мост">
+<area shape="rect" coords="664,138,686,159" href="raspisanie/kkz.xls" alt="ККЦ">
+<area shape="rect" coords="693,130,716,156" href="raspisanie/sredneuralskaja.xls" alt="Среднеуральская">
+<area shape="rect" coords="735,136,757,157" href="raspisanie/granitnaja.xls" alt="Гранитная">
+<area shape="rect" coords="813,136,831,159" href="raspisanie/14u.xls" alt="14 участок">
+<area shape="rect" coords="882,141,907,159" href="raspisanie/mkz.xls" alt="МКЗ">
+<area shape="rect" coords="965,141,986,162" href="raspisanie/8prohodnaja.xls" alt="8-ая проходная">
+
+
+<!-- От Шишка до Строителей-->
+<area shape="rect" coords="478,186,508,206" href="raspisanie/uchi53.xls" alt="Училище 53">
+<area shape="rect" coords="486,255,523,274" href="raspisanie/dsporta.xls" alt="Дворец Спорта">
+<area shape="rect" coords="499,299,523,320" href="raspisanie/1palatca.xls" alt="1ая палатка">
+<area shape="rect" coords="548,373,577,398" href="raspisanie/stroiteley.xls" alt="Строителей">
+
+
+<!-- От Центральный переход до Береговая-->
+
+<area shape="rect" coords="686,415,718,436" href="raspisanie/zperehod.xls" alt="Центральный переход">
+<area shape="rect" coords="740,440,775,469" href="raspisanie/metallurgov.xls" alt="Металлургов">
+<area shape="rect" coords="734,517,763,546" href="raspisanie/bronevaja.xls" alt="Броневая">
+<area shape="rect" coords="712,624,738,656" href="raspisanie/beregovaja.xls" alt="Береговая">
+
+
+
+<!-- От Ленинградская до пл.Носова-->
+<area shape="rect" coords="155,518,177,539" href="raspisanie/sovetskaja.xls" alt="Советская">
+<area shape="rect" coords="246,515,275,543" href="raspisanie/krilova.xls" alt="Крылова">
+<area shape="rect" coords="323,518,348,539" href="raspisanie/km55len.xls" alt="к. Маркса 55">
+<area shape="rect" coords="373,516,394,539" href="raspisanie/km55len.xls" alt="К. Маркса 55">
+<area shape="rect" coords="436,514,461,539" href="raspisanie/lenina.xls" alt="Ленина">
+<area shape="rect" coords="475,515,501,543" href="raspisanie/kuibicheva.xls" alt="Куйбышева">
+<area shape="rect" coords="513,486,537,514" href="raspisanie/chapaeva.xls" alt="Чапаева">
+<area shape="rect" coords="548,449,573,474" href="raspisanie/plnosova.xls" alt="пл. Носова">
+<area shape="rect" coords="" href="raspisanie/.xls" alt="">
+<area shape="rect" coords="" href="raspisanie/.xls" alt="">
+<area shape="rect" coords="" href="raspisanie/.xls" alt="">
+<area shape="rect" coords="" href="raspisanie/.xls" alt="">
+
+
+</map>
