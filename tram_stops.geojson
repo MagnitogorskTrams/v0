@@ -1,0 +1,1550 @@
+{ "type": "FeatureCollection",  "features": [
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.979487, 53.4180485]},
+  "properties": {"id": 69, "name": "пр. К. Маркса, 55", "direction": ["Гагарина"], "filename": "km55"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9969308, 53.4267009]},
+  "properties": {"id": 212, "name": "1-я Палатка", "direction": ["Строителей","пл. Свердлова"], "filename": "1palatca"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9774743, 53.3980207]},
+  "properties": {"id": 140, "name": "Грязнова, 37", "direction": ["Грязнова","МСЧ"], "filename": "graznova37"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9633756, 53.386865]},
+  "properties": {"id": 81, "name": "126-й микрорайон", "direction": ["МСЧ"], "filename": "126mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782896, 53.3702234]},
+  "properties": {"id": 57, "name": "Бориса Ручьева", "direction": ["Коробова","Курортная поликлиника"], "filename": "brucheva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617917, 53.3718683]},
+  "properties": {"id": 77, "name": "Плавательный бассейн", "direction": ["Доменщиков"], "filename": "plavbaseyn"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9736825, 53.4372531]},
+  "properties": {"id": 74, "name": "Чекалина", "direction": ["Комсомольская"], "filename": "chekalina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0323982, 53.4109839]},
+  "properties": {"id": 221, "name": "Броневая", "direction": ["Центральный переход"], "filename": "bronevaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.1012723, 53.3914711]},
+  "properties": {"id": 25, "name": "8 Марта", "direction": ["РИС"], "filename": "8marta"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0934282, 53.4113948]},
+  "properties": {"id": 29, "name": "РИС", "direction": ["Полевая"], "filename": "ris"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0958997, 53.3855494]},
+  "properties": {"id": 35, "name": "9 Января", "direction": ["Полевая"], "filename": "9jan"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0986296, 53.4030419]},
+  "properties": {"id": 22, "name": "к/т Спутник", "direction": ["РИС"], "filename": "sputnik"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0995891, 53.3961008]},
+  "properties": {"id": 24, "name": "Кузбасская", "direction": ["РИС"], "filename": "kuzbaskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794168, 53.4300965]},
+  "properties": {"id": 53, "name": "Оперный театр", "direction": ["Вокзал"], "filename": "operteatr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9876577, 53.4344931]},
+  "properties": {"id": 194, "name": "Н. Шишка", "direction": ["Дворец Дружбы Народов"], "filename": "shiska"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9713845, 53.3797796]},
+  "properties": {"id": 128, "name": "Галиуллина", "direction": ["Завенягина","Худ. школа"], "filename": "galiullina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782304, 53.379403]},
+  "properties": {"id": 41, "name": "Гостиный двор", "direction": ["Завенягина"], "filename": "gdvor"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9800662, 53.3797604]},
+  "properties": {"id": 129, "name": "Художественная школа", "direction": ["Казачья переправа"], "filename": "xshool"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0291559, 53.3834804]},
+  "properties": {"id": 123, "name": "Грибоедова", "direction": ["Казачья переправа"], "filename": "griboedova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0438342, 53.391206]},
+  "properties": {"id": 126, "name": "Сосновая", "direction": ["Казачья переправа"], "filename": "sosna"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617729, 53.3985661]},
+  "properties": {"id": 102, "name": "Грязнова", "direction": ["МСЧ","Грязнова, 4"], "filename": "grjaznova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.978094, 53.4113219]},
+  "properties": {"id": 49, "name": "Гагарина", "direction": ["Комсомольская"], "filename": "gagarina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9783265, 53.365682]},
+  "properties": {"id": 38, "name": "Труда", "direction": ["Завенягина"], "filename": "truda"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9628996, 53.3649021]},
+  "properties": {"id": 115, "name": "Курортная поликлиника", "direction": ["Труда"], "filename": "kp"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617122, 53.3923378]},
+  "properties": {"id": 100, "name": "пер. Советский", "direction": ["ТСС"], "filename": "persovets"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9618501, 53.3657304]},
+  "properties": {"id": 76, "name": "132-й микрорайон", "direction": ["пл. Бассейн"], "filename": "132mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781981, 53.3940144]},
+  "properties": {"id": 63, "name": "пр. К. Маркса, 115", "direction": ["Труда"], "filename": "km115"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782943, 53.3696474]},
+  "properties": {"id": 39, "name": "Бориса Ручьева", "direction": ["Завенягина"], "filename": "brucheva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9664084, 53.3836272]},
+  "properties": {"id": 80, "name": "Сталеваров", "direction": ["МСЧ"], "filename": "stalevarov"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781457, 53.3986126]},
+  "properties": {"id": 64, "name": "Юность", "direction": ["Завенягина"], "filename": "unost"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0935951, 53.4435765]},
+  "properties": {"id": 264, "name": "пос. Березки", "direction": ["Товарная","8-я проходная"], "filename": "berezki"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9861311, 53.365349]},
+  "properties": {"id": 15, "name": "шк. им. Ромазана", "direction": ["Коробова"], "filename": "romasan"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781001, 53.4082953]},
+  "properties": {"id": 66, "name": "Куранты", "direction": ["Юность"], "filename": "kuranti"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.05471, 53.449764]},
+  "properties": {"id": 189, "name": "14-й участок", "direction": ["Дворец Дружбы Народов"], "filename": "14u"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9633756, 53.386865]},
+  "properties": {"id": 98, "name": "126-й микрорайон", "direction": ["ТСС"], "filename": "126mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.084354, 53.3860345]},
+  "properties": {"id": 37, "name": "1-я Горбольница", "direction": ["Полевая"], "filename": "1gorbolnitsa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.084354, 53.3860345]},
+  "properties": {"id": 28, "name": "1-я Горбольница", "direction": ["РИС"], "filename": "1gorbolnitsa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9844512, 53.4261798]},
+  "properties": {"id": 175, "name": "Библиотека", "direction": ["Центральный переход","1-я Палатка"], "filename": "biblioteka"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9793778, 53.4367764]},
+  "properties": {"id": 55, "name": "Вокзал", "direction": ["Депо 2"], "filename": "vokzal"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.066945, 53.4215837]},
+  "properties": {"id": 249, "name": "Луговая", "direction": ["Комсомольская площадь"], "filename": "lugovaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0928171, 53.3860501]},
+  "properties": {"id": 27, "name": "Островского", "direction": ["РИС"], "filename": "ostrovskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0928171, 53.3860501]},
+  "properties": {"id": 36, "name": "Островского", "direction": ["Полевая"], "filename": "ostrovskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0994969, 53.3963961]},
+  "properties": {"id": 33, "name": "Кузбасская", "direction": ["Полевая"], "filename": "kuzbaskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0958997, 53.3855494]},
+  "properties": {"id": 26, "name": "9 Января", "direction": ["РИС"], "filename": "9jan"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794168, 53.4300965]},
+  "properties": {"id": 71, "name": "Оперный театр", "direction": ["Гагарина"], "filename": "operteatr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9992372, 53.3662166]},
+  "properties": {"id": 17, "name": "Калмыкова", "direction": ["Коробова"], "filename": "kalmikova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782649, 53.3746736]},
+  "properties": {"id": 40, "name": "Энгельса", "direction": ["Завенягина"], "filename": "engelsa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782304, 53.379403]},
+  "properties": {"id": 59, "name": "Гостиный двор", "direction": ["Коробова","Курортная поликлиника"], "filename": "gdvor"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9694762, 53.3775979]},
+  "properties": {"id": 78, "name": "Доменщиков", "direction": ["ТСС","Галиуллина"], "filename": "domenchikov"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782219, 53.3805746]},
+  "properties": {"id": 42, "name": "Завенягина", "direction": ["Юность"], "filename": "zavenjagina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782219, 53.3805746]},
+  "properties": {"id": 60, "name": "Завенягина", "direction": ["Труда"], "filename": "zavenjagina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0637534, 53.4665016]},
+  "properties": {"id": 19, "name": "ул. Салтыкова-Щедрина", "direction": ["п. Новосеверный"], "filename": "schedrina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781815, 53.3898948]},
+  "properties": {"id": 62, "name": "Советской Армии", "direction": ["Труда"], "filename": "sovarm"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9780868, 53.4148314]},
+  "properties": {"id": 50, "name": "Центральный рынок", "direction": ["Комсомольская"], "filename": "zrinok"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9628996, 53.3649021]},
+  "properties": {"id": 112, "name": "Курортная поликлиника", "direction": ["132 микрорайон","141 микрорайон"], "filename": "kp"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9721436, 53.3980083]},
+  "properties": {"id": 139, "name": "Консерватория", "direction": ["Грязнова","МСЧ"], "filename": "konservatorija"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617122, 53.3923378]},
+  "properties": {"id": 83, "name": "пер. Советский", "direction": ["МСЧ"], "filename": "persovets"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794412, 53.425899]},
+  "properties": {"id": 52, "name": "Комсомольская", "direction": ["Вокзал"], "filename": "komsomolskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9618501, 53.3657304]},
+  "properties": {"id": 93, "name": "132-й микрорайон", "direction": ["Курортная поликлиника"], "filename": "132mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781981, 53.3940144]},
+  "properties": {"id": 45, "name": "пр. К. Маркса, 115", "direction": ["Юность"], "filename": "km115"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0592644, 53.4586378]},
+  "properties": {"id": 21, "name": "пос. Новосеверный", "direction": ["14 участок","МКЗ"], "filename": "novosevernij"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9780972, 53.4079666]},
+  "properties": {"id": 48, "name": "Куранты", "direction": ["Комсомольская"], "filename": "kuranti"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0485497, 53.3948393]},
+  "properties": {"id": 137, "name": "Магнитная", "direction": ["Трубная","Кирова"], "filename": "magnitnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9788322, 53.39803]},
+  "properties": {"id": 141, "name": "пл. Мира", "direction": ["Грязнова","Юность","пр. К. Маркса, 115"], "filename": "plmira"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0610718, 53.4759062]},
+  "properties": {"id": 18, "name": "ЛПЦ", "direction": ["п. Новосеверный"], "filename": "lpz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794382, 53.4264191]},
+  "properties": {"id": 70, "name": "Комсомольская", "direction": ["Гагарина"], "filename": "komsomolskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9918757, 53.4355165]},
+  "properties": {"id": 180, "name": "Дворец Дружбы Народов", "direction": ["1-я Палатка","Первомайская"], "filename": "ddn"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9996635, 53.4412781]},
+  "properties": {"id": 197, "name": "Гаражи", "direction": ["14 участок"], "filename": "garagi"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0939612, 53.4070378]},
+  "properties": {"id": 30, "name": "Рембаза", "direction": ["Полевая"], "filename": "rembasa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0984874, 53.4034517]},
+  "properties": {"id": 31, "name": "к/т Спутник", "direction": ["Полевая"], "filename": "sputnik"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0501858, 53.3950033]},
+  "properties": {"id": 239, "name": "Трубная", "direction": ["Магнитная","Профсоюзная"], "filename": "trubnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794069, 53.4317859]},
+  "properties": {"id": 54, "name": "Первомайская", "direction": ["Вокзал"], "filename": "pervomayskaya"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615512, 53.4119409]},
+  "properties": {"id": 88, "name": "Трест Магнитострой", "direction": ["Зеленый рынок"], "filename": "magnitostroy"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617281, 53.402777]},
+  "properties": {"id": 103, "name": "шк. им. В.П. Агапитова", "direction": ["Грязнова"], "filename": "agapitova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.98866, 53.3797831]},
+  "properties": {"id": 120, "name": "Храм Вознесения", "direction": ["Завенягина","Гостиный двор"], "filename": "xramv"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615368, 53.4082636]},
+  "properties": {"id": 104, "name": "Правды", "direction": ["Грязнова"], "filename": "gpravda"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0347271, 53.3851981]},
+  "properties": {"id": 134, "name": "пос. Коммунальный", "direction": ["Магнитная"], "filename": "pkomunalniy"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781815, 53.3898948]},
+  "properties": {"id": 44, "name": "Советской Армии", "direction": ["Юность"], "filename": "sovarm"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615641, 53.4202119]},
+  "properties": {"id": 91, "name": "Калинина", "direction": ["Зеленый рынок"], "filename": "kalinina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781382, 53.4042826]},
+  "properties": {"id": 47, "name": "Дружбы", "direction": ["Комсомольская"], "filename": "druzba"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9621056, 53.4261319]},
+  "properties": {"id": 166, "name": "Достоевского", "direction": ["Тимирязева","Зеленый рынок"], "filename": "dostoevskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9772296, 53.364926]},
+  "properties": {"id": 114, "name": "Труда, 25", "direction": ["132 микрорайон","141 микрорайон"], "filename": "truda25"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617624, 53.3974829]},
+  "properties": {"id": 101, "name": "МСЧ", "direction": ["ТСС"], "filename": "msch"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0061922, 53.4460821]},
+  "properties": {"id": 198, "name": "Гора Пугачева", "direction": ["14 участок"], "filename": "gpugacheva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781457, 53.3986126]},
+  "properties": {"id": 46, "name": "Юность", "direction": ["Комсомольская"], "filename": "unost"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781299, 53.4049209]},
+  "properties": {"id": 65, "name": "Дружбы", "direction": ["Юность"], "filename": "druzba"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0639444, 53.4622664]},
+  "properties": {"id": 20, "name": "Бахметьева", "direction": ["п. Новосеверный"], "filename": "bahmeteva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0295303, 53.4509925]},
+  "properties": {"id": 186, "name": "ККЦ", "direction": ["Дворец Дружбы Народов"], "filename": "kkz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0458498, 53.4476519]},
+  "properties": {"id": 203, "name": "Гранитная", "direction": ["14 участок"], "filename": "granitnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615613, 53.4184567]},
+  "properties": {"id": 90, "name": "Таможня", "direction": ["Зеленый рынок"], "filename": "tamoznja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615732, 53.4258492]},
+  "properties": {"id": 109, "name": "Тимирязева", "direction": ["Грязнова"], "filename": "timirjazeva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0716028, 53.3860312]},
+  "properties": {"id": 244, "name": "Полевая", "direction": ["Маяковского"], "filename": "polevaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9624906, 53.3979921]},
+  "properties": {"id": 138, "name": "Грязнова, 4", "direction": ["Грязнова","МСЧ"], "filename": "graznova4"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.991926, 53.4177949]},
+  "properties": {"id": 163, "name": "Куйбышева", "direction": ["пл. Носова"], "filename": "kuibicheva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9950674, 53.4261456]},
+  "properties": {"id": 177, "name": "пл. Свердлова", "direction": ["Центральный переход","1-я Палатка"], "filename": "plsverdlova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617505, 53.3897072]},
+  "properties": {"id": 99, "name": "Лесопарковая", "direction": ["ТСС"], "filename": "lesoparkovaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9705143, 53.3980105]},
+  "properties": {"id": 146, "name": "Консерватория", "direction": ["пл. Мира","Юность"], "filename": "konservatorija"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0988552, 53.3984296]},
+  "properties": {"id": 23, "name": "Черняховского", "direction": ["РИС"], "filename": "chernjaxvskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9948885, 53.3789608]},
+  "properties": {"id": 121, "name": "Старая Магнитка", "direction": ["Худ. школа"], "filename": "stmagnitka"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9694877, 53.380267]},
+  "properties": {"id": 96, "name": "ТСС", "direction": ["132 микрорайон"], "filename": "tss"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9694877, 53.380267]},
+  "properties": {"id": 79, "name": "ТСС", "direction": ["МСЧ"], "filename": "tss"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615368, 53.4082636]},
+  "properties": {"id": 87, "name": "Правды", "direction": ["Трест Магнитострой"], "filename": "gpravda"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0222993, 53.3813664]},
+  "properties": {"id": 132, "name": "Казачья переправа", "direction": ["Магнитная"], "filename": "kazper"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0391666, 53.3876746]},
+  "properties": {"id": 125, "name": "Боткина", "direction": ["Казачья переправа"], "filename": "botkina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615699, 53.4174518]},
+  "properties": {"id": 89, "name": "Комарова", "direction": ["Зеленый рынок"], "filename": "komarova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9781975, 53.3867764]},
+  "properties": {"id": 43, "name": "Политехнический колледж", "direction": ["Юность"], "filename": "politexkoledg"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9780863, 53.4151034]},
+  "properties": {"id": 68, "name": "Центральный рынок", "direction": ["Гагарина"], "filename": "zrinok"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0151474, 53.4509774]},
+  "properties": {"id": 200, "name": "Мост", "direction": ["14 участок"], "filename": "most"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0051342, 53.3654309]},
+  "properties": {"id": 9, "name": "137-й микрорайон", "direction": ["Труда"], "filename": "137mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9618461, 53.3644976]},
+  "properties": {"id": 7, "name": "141-й микрорайон", "direction": ["Зеленый лог"], "filename": "141mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9772296, 53.364926]},
+  "properties": {"id": 117, "name": "Труда, 25", "direction": ["Труда","шк. им. Ромазана"], "filename": "truda25"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617624, 53.3974829]},
+  "properties": {"id": 84, "name": "МСЧ", "direction": ["Грязнова","Грязнова, 4"], "filename": "msch"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9664084, 53.3836272]},
+  "properties": {"id": 97, "name": "Сталеваров", "direction": ["ТСС"], "filename": "stalevarov"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9861311, 53.365349]},
+  "properties": {"id": 12, "name": "шк. им. Ромазана", "direction": ["Труда"], "filename": "romasan"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9700076, 53.3649186]},
+  "properties": {"id": 116, "name": "им. Маршала Жукова", "direction": ["Труда"], "filename": "zukova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9727336, 53.4177976]},
+  "properties": {"id": 153, "name": "Крылова", "direction": ["Советская"], "filename": "krilova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9716825, 53.4177961]},
+  "properties": {"id": 160, "name": "Крылова", "direction": ["пр. К. Маркса, 55"], "filename": "krilova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0668283, 53.4492105]},
+  "properties": {"id": 190, "name": "МКЗ", "direction": ["14 участок"], "filename": "mkz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0804962, 53.4513124]},
+  "properties": {"id": 192, "name": "Товарная", "direction": ["МКЗ"], "filename": "tovarnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.978809, 53.3649688]},
+  "properties": {"id": 13, "name": "им. Героя Соцтруда Владислава Романова", "direction": ["Труда"], "filename": "romanova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615613, 53.4184567]},
+  "properties": {"id": 107, "name": "Таможня", "direction": ["Грязнова"], "filename": "tamoznja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615732, 53.4258492]},
+  "properties": {"id": 92, "name": "Тимирязева", "direction": ["Зеленый рынок"], "filename": "timirjazeva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9618704, 53.3586272]},
+  "properties": {"id": 4, "name": "50 лет Магнитки", "direction": ["Курортная поликлиника"], "filename": "50lm"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617917, 53.3718683]},
+  "properties": {"id": 94, "name": "Плавательный бассейн", "direction": ["Курортная поликлиника"], "filename": "plavbaseyn"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.008428, 53.363503]},
+  "properties": {"id": 8, "name": "Коробова", "direction": ["Труда"], "filename": "korobova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.991481, 53.3662012]},
+  "properties": {"id": 16, "name": "Станичная", "direction": ["Коробова"], "filename": "stan"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9624906, 53.3979921]},
+  "properties": {"id": 145, "name": "Грязнова, 4", "direction": ["пл. Мира","Юность"], "filename": "graznova4"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9703681, 53.3649241]},
+  "properties": {"id": 113, "name": "им. Маршала Жукова", "direction": ["132 микрорайон","141 микрорайон"], "filename": "zukova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9558686, 53.3648929]},
+  "properties": {"id": 1, "name": "Тевосяна", "direction": ["Курортная поликлиника"], "filename": "tevosyana"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.991926, 53.4177949]},
+  "properties": {"id": 156, "name": "Куйбышева", "direction": ["пр. К. Маркса, 55"], "filename": "kuibicheva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9844512, 53.4261798]},
+  "properties": {"id": 169, "name": "Библиотека", "direction": ["пр. К. Маркса"], "filename": "biblioteka"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9895179, 53.426155]},
+  "properties": {"id": 170, "name": "к/т им. Горького", "direction": ["пр. К. Маркса"], "filename": "kgorkogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.961864, 53.359346]},
+  "properties": {"id": 6, "name": "50 лет Магнитки", "direction": ["Зеленый лог"], "filename": "50lm"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617505, 53.3897072]},
+  "properties": {"id": 82, "name": "Лесопарковая", "direction": ["МСЧ"], "filename": "lesoparkovaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0986164, 53.3988741]},
+  "properties": {"id": 32, "name": "Черняховского", "direction": ["Полевая"], "filename": "chernjaxvskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794042, 53.43225]},
+  "properties": {"id": 72, "name": "Первомайская", "direction": ["Гагарина"], "filename": "pervomayskaya"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9801898, 53.4344555]},
+  "properties": {"id": 193, "name": "Московская", "direction": ["Дворец Дружбы Народов"], "filename": "moskovskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9713845, 53.3797796]},
+  "properties": {"id": 118, "name": "Галиуллина", "direction": ["Доменщиков","ТСС"], "filename": "galiullina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615512, 53.4119409]},
+  "properties": {"id": 105, "name": "Трест Магнитострой", "direction": ["Грязнова"], "filename": "magnitostroy"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617281, 53.402777]},
+  "properties": {"id": 86, "name": "шк. им. В.П. Агапитова", "direction": ["Трест Магнитострой"], "filename": "agapitova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9694762, 53.3775979]},
+  "properties": {"id": 95, "name": "Доменщиков", "direction": ["132 микрорайон"], "filename": "domenchikov"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0291559, 53.3834804]},
+  "properties": {"id": 133, "name": "Грибоедова", "direction": ["Магнитная"], "filename": "griboedova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0438342, 53.391206]},
+  "properties": {"id": 136, "name": "Сосновая", "direction": ["Магнитная"], "filename": "sosna"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0347271, 53.3851981]},
+  "properties": {"id": 124, "name": "пос. Коммунальный", "direction": ["Казачья переправа"], "filename": "pkomunalniy"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0222993, 53.3813664]},
+  "properties": {"id": 122, "name": "Казачья переправа", "direction": ["Худ. школа"], "filename": "kazper"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0163605, 53.3980668]},
+  "properties": {"id": 151, "name": "ТЭЦ", "direction": ["Бетонстрой","Береговая"], "filename": "tez"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0166109, 53.3980672]},
+  "properties": {"id": 144, "name": "ТЭЦ", "direction": ["пл. Мира"], "filename": "tez"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9911238, 53.3980727]},
+  "properties": {"id": 143, "name": "Южный переход", "direction": ["пл. Мира"], "filename": "uzper"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9622172, 53.4177964]},
+  "properties": {"id": 152, "name": "Советская", "direction": ["Таможня","Комарова"], "filename": "sovetskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9973537, 53.4187992]},
+  "properties": {"id": 157, "name": "Чапаева", "direction": ["пр. К. Маркса, 55"], "filename": "chapaeva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0098635, 53.448781]},
+  "properties": {"id": 199, "name": "Овощехранилище", "direction": ["14 участок"], "filename": "ovochex"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9944636, 53.3791403]},
+  "properties": {"id": 131, "name": "Старая Магнитка", "direction": ["Казачья переправа"], "filename": "stmagnitka"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0485497, 53.3948393]},
+  "properties": {"id": 127, "name": "Магнитная", "direction": ["Казачья переправа"], "filename": "magnitnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9614903, 53.4334922]},
+  "properties": {"id": 110, "name": "им. Хирурга Бурденко", "direction": ["Тимирязева"], "filename": "burda"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0458498, 53.4476519]},
+  "properties": {"id": 188, "name": "Гранитная", "direction": ["Дворец Дружбы Народов"], "filename": "granitnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.991481, 53.3662012]},
+  "properties": {"id": 11, "name": "Станичная", "direction": ["Труда"], "filename": "stan"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9895179, 53.426155]},
+  "properties": {"id": 176, "name": "к/т им. Горького", "direction": ["Центральный переход","1-я Палатка"], "filename": "kgorkogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9801898, 53.4344555]},
+  "properties": {"id": 178, "name": "Московская", "direction": ["Первомайская"], "filename": "moskovskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9911238, 53.3980727]},
+  "properties": {"id": 150, "name": "Южный переход", "direction": ["ТЭЦ"], "filename": "uzper"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615641, 53.4202119]},
+  "properties": {"id": 108, "name": "Калинина", "direction": ["Грязнова"], "filename": "kalinina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [0, 0]},
+  "properties": {"id": 111, "name": "Зеленый рынок", "direction": ["Тимирязева"], "filename": "zelrinok"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9790428, 53.4178036]},
+  "properties": {"id": 161, "name": "пр. К. Маркса, 55", "direction": ["пл. Носова"], "filename": "km55len"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9774743, 53.3980207]},
+  "properties": {"id": 147, "name": "Грязнова, 37", "direction": ["пл. Мира","Юность"], "filename": "graznova37"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9788322, 53.39803]},
+  "properties": {"id": 148, "name": "пл. Мира", "direction": ["ТЭЦ"], "filename": "plmira"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9646459, 53.3526241]},
+  "properties": {"id": 2, "name": "Зеленый лог", "direction": ["Курортная поликлиника"], "filename": "zl"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0668283, 53.4492105]},
+  "properties": {"id": 205, "name": "МКЗ", "direction": ["Товарная"], "filename": "mkz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9918757, 53.4355165]},
+  "properties": {"id": 195, "name": "Дворец Дружбы Народов", "direction": ["14 участок"], "filename": "ddn"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0455907, 53.4025412]},
+  "properties": {"id": 256, "name": "Кирова", "direction": ["Комсомольская площадь"], "filename": "kirova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9791478, 53.4261831]},
+  "properties": {"id": 174, "name": "пр. К. Маркса", "direction": ["Библиотека"], "filename": "kmarksa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0295303, 53.4509925]},
+  "properties": {"id": 201, "name": "ККЦ", "direction": ["14 участок"], "filename": "kkz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9800381, 53.4178022]},
+  "properties": {"id": 154, "name": "пр. К. Маркса, 55", "direction": ["Крылова"], "filename": "km55len"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.978809, 53.3649688]},
+  "properties": {"id": 14, "name": "им. Героя Соцтруда Владислава Романова", "direction": ["Коробова"], "filename": "romanova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0716028, 53.3860312]},
+  "properties": {"id": 233, "name": "Полевая", "direction": ["1-я Горбольница"], "filename": "polevaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9915429, 53.4345903]},
+  "properties": {"id": 214, "name": "Училище № 53", "direction": ["1-я Палатка"], "filename": "uchi53"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0869186, 53.4472406]},
+  "properties": {"id": 254, "name": "пос. Димитрова", "direction": ["Прокатмонтаж"], "filename": "dmitrova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0513315, 53.4108627]},
+  "properties": {"id": 257, "name": "Кирова, 70", "direction": ["Комсомольская площадь"], "filename": "kirova70"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0007936, 53.421234]},
+  "properties": {"id": 158, "name": "пл. Носова", "direction": ["пр. К. Маркса, 55"], "filename": "plnosova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9793778, 53.4367764]},
+  "properties": {"id": 73, "name": "Вокзал", "direction": ["Комсомольская"], "filename": "vokzal"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9950674, 53.4261456]},
+  "properties": {"id": 171, "name": "пл. Свердлова", "direction": ["пр. К. Маркса"], "filename": "plsverdlova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0874973, 53.4397671]},
+  "properties": {"id": 252, "name": "пос. Брусковый", "direction": ["Прокатмонтаж"], "filename": "brusok"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.066945, 53.4215837]},
+  "properties": {"id": 260, "name": "Луговая", "direction": ["Прокатмонтаж"], "filename": "lugovaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0633964, 53.4194934]},
+  "properties": {"id": 248, "name": "Автобаза", "direction": ["Комсомольская площадь"], "filename": "avtobasa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0615078, 53.392651]},
+  "properties": {"id": 230, "name": "пл. Победы", "direction": ["Полевая"], "filename": "plviktory"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0522243, 53.3920131]},
+  "properties": {"id": 229, "name": "Маяковского", "direction": ["Полевая"], "filename": "majakovskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0002044, 53.366222]},
+  "properties": {"id": 10, "name": "Калмыкова", "direction": ["Труда"], "filename": "kalmikova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0391666, 53.3876746]},
+  "properties": {"id": 135, "name": "Боткина", "direction": ["Магнитная"], "filename": "botkina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9615699, 53.4174518]},
+  "properties": {"id": 106, "name": "Комарова", "direction": ["Грязнова"], "filename": "komarova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.968787, 53.4261249]},
+  "properties": {"id": 167, "name": "Суворова", "direction": ["Достоевского"], "filename": "suvorova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9871776, 53.3980588]},
+  "properties": {"id": 149, "name": "Цирк", "direction": ["ТЭЦ"], "filename": "cirk"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.985346, 53.4177958]},
+  "properties": {"id": 155, "name": "пр. Ленина", "direction": ["пр. К. Маркса, 55"], "filename": "lenina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0371264, 53.3987081]},
+  "properties": {"id": 224, "name": "Профсоюзная", "direction": ["Кирова","Трубная"], "filename": "profsouz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0814298, 53.4504699]},
+  "properties": {"id": 266, "name": "Башик", "direction": ["Товарная","8-я проходная"], "filename": "bashik"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0280126, 53.3955718]},
+  "properties": {"id": 223, "name": "Бетонстрой", "direction": ["Профсоюзная"], "filename": "betonstroy"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9969754, 53.430319]},
+  "properties": {"id": 209, "name": "Дворец Спорта", "direction": ["Дворец Дружбы Народов"], "filename": "dsporta"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0766893, 53.4462211]},
+  "properties": {"id": 191, "name": "8-я проходная", "direction": ["МКЗ"], "filename": "8prohodnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9960006, 53.4385683]},
+  "properties": {"id": 181, "name": "Химчистка", "direction": ["Дворец Дружбы Народов"], "filename": "himchistka"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0347503, 53.4507784]},
+  "properties": {"id": 187, "name": "Среднеуральская", "direction": ["Дворец Дружбы Народов"], "filename": "sredneuralskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0006968, 53.4232024]},
+  "properties": {"id": 207, "name": "Строителей", "direction": ["1-я Палатка","пл. Свердлова"], "filename": "stroiteley"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0935951, 53.4435765]},
+  "properties": {"id": 253, "name": "пос. Березки", "direction": ["Прокатмонтаж"], "filename": "berezki"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0176334, 53.4222106]},
+  "properties": {"id": 219, "name": "Центральный переход", "direction": ["Строителей","пл. Носова"], "filename": "zperehod"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0869186, 53.4472406]},
+  "properties": {"id": 265, "name": "пос. Димитрова", "direction": ["Товарная","8-я проходная"], "filename": "dmitrova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0553504, 53.4138579]},
+  "properties": {"id": 258, "name": "Комсомольская площадь", "direction": ["Прокатмонтаж"], "filename": "komsomolskajapl"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.07287, 53.4293518]},
+  "properties": {"id": 261, "name": "Автошкола", "direction": ["Прокатмонтаж"], "filename": "avtoschool"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0336635, 53.4215728]},
+  "properties": {"id": 220, "name": "Металлургов", "direction": ["Центральный переход"], "filename": "metallurgov"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0261857, 53.4022342]},
+  "properties": {"id": 218, "name": "Береговая", "direction": ["Бетонстрой","ТЭЦ"], "filename": "beregovaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0261857, 53.4022342]},
+  "properties": {"id": 222, "name": "Береговая", "direction": ["Центральный переход"], "filename": "beregovaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0874973, 53.4397671]},
+  "properties": {"id": 263, "name": "пос. Брусковый", "direction": ["Товарная","8-я проходная"], "filename": "brusok"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0633964, 53.4194934]},
+  "properties": {"id": 259, "name": "Автобаза", "direction": ["Прокатмонтаж"], "filename": "avtobasa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0623628, 53.3884233]},
+  "properties": {"id": 231, "name": "Чайковского", "direction": ["Полевая"], "filename": "chaikovskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.1012723, 53.3914711]},
+  "properties": {"id": 34, "name": "8 Марта", "direction": ["Полевая"], "filename": "8marta"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0777202, 53.4349439]},
+  "properties": {"id": 262, "name": "Прокатмонтаж", "direction": ["Товарная","8-я проходная"], "filename": "prokatmontaj"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.068075, 53.3860916]},
+  "properties": {"id": 232, "name": "Фрунзе", "direction": ["Полевая"], "filename": "frunze"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9876577, 53.4344931]},
+  "properties": {"id": 179, "name": "Н. Шишка", "direction": ["Первомайская"], "filename": "shiska"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9969754, 53.430319]},
+  "properties": {"id": 213, "name": "Дворец Спорта", "direction": ["1-я Палатка"], "filename": "dsporta"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0766893, 53.4462211]},
+  "properties": {"id": 206, "name": "8-я проходная", "direction": ["Товарная"], "filename": "8prohodnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9960006, 53.4385683]},
+  "properties": {"id": 196, "name": "Химчистка", "direction": ["14 участок"], "filename": "himchistka"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9801969, 53.4261782]},
+  "properties": {"id": 168, "name": "пр. К. Маркса", "direction": ["Достоевского"], "filename": "kmarksa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0151474, 53.4509774]},
+  "properties": {"id": 185, "name": "Мост", "direction": ["Дворец Дружбы Народов"], "filename": "most"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9794179, 53.4175821]},
+  "properties": {"id": 51, "name": "пр. К. Маркса, 55", "direction": ["Комсомольская","Куйбышева"], "filename": "km55"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9618461, 53.3644976]},
+  "properties": {"id": 5, "name": "141-й микрорайон", "direction": ["Курортная поликлиника"], "filename": "141mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.05471, 53.449764]},
+  "properties": {"id": 204, "name": "14-й участок", "direction": ["ЛПЦ","МКЗ"], "filename": "14u"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0455907, 53.4025412]},
+  "properties": {"id": 245, "name": "Кирова", "direction": ["Профсоюзная","Трубная"], "filename": "kirova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9996635, 53.4412781]},
+  "properties": {"id": 182, "name": "Гаражи", "direction": ["Дворец Дружбы Народов"], "filename": "garagi"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9915429, 53.4345903]},
+  "properties": {"id": 210, "name": "Училище № 53", "direction": ["Дворец Дружбы Народов"], "filename": "uchi53"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0176334, 53.4222106]},
+  "properties": {"id": 215, "name": "Центральный переход", "direction": ["Броневая"], "filename": "zperehod"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0513315, 53.4108627]},
+  "properties": {"id": 246, "name": "Кирова, 70", "direction": ["Профсоюзная","Трубная"], "filename": "kirova70"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0553504, 53.4138579]},
+  "properties": {"id": 247, "name": "Комсомольская площадь", "direction": ["Кирова"], "filename": "komsomolskajapl"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.07287, 53.4293518]},
+  "properties": {"id": 250, "name": "Автошкола", "direction": ["Комсомольская площадь"], "filename": "avtoschool"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0336635, 53.4215728]},
+  "properties": {"id": 216, "name": "Металлургов", "direction": ["Броневая"], "filename": "metallurgov"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0615078, 53.392651]},
+  "properties": {"id": 241, "name": "пл. Победы", "direction": ["Маяковского"], "filename": "plviktory"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0623628, 53.3884233]},
+  "properties": {"id": 242, "name": "Чайковского", "direction": ["Маяковского"], "filename": "chaikovskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0522243, 53.3920131]},
+  "properties": {"id": 240, "name": "Маяковского", "direction": ["Трубная"], "filename": "majakovskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0777202, 53.4349439]},
+  "properties": {"id": 251, "name": "Прокатмонтаж", "direction": ["Комсомольская площадь"], "filename": "prokatmontaj"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.068075, 53.3860916]},
+  "properties": {"id": 243, "name": "Фрунзе", "direction": ["Маяковского"], "filename": "frunze"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0501858, 53.3950033]},
+  "properties": {"id": 228, "name": "Трубная", "direction": ["Полевая"], "filename": "trubnaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9800662, 53.3797604]},
+  "properties": {"id": 119, "name": "Художественная школа", "direction": ["Завенягина","Гостиный двор"], "filename": "xshool"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.98866, 53.3797831]},
+  "properties": {"id": 130, "name": "Храм Вознесения", "direction": ["Казачья переправа"], "filename": "xramv"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9622172, 53.4177964]},
+  "properties": {"id": 159, "name": "Советская", "direction": ["пр. К. Маркса, 55"], "filename": "sovetskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.968787, 53.4261249]},
+  "properties": {"id": 173, "name": "Суворова", "direction": ["Библиотека"], "filename": "suvorova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9617729, 53.3985661]},
+  "properties": {"id": 85, "name": "Грязнова", "direction": ["Трест Магнитострой"], "filename": "grjaznova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.978094, 53.4113219]},
+  "properties": {"id": 67, "name": "Гагарина", "direction": ["Юность"], "filename": "gagarina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9973537, 53.4187992]},
+  "properties": {"id": 164, "name": "Чапаева", "direction": ["пл. Носова"], "filename": "chapaeva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9783265, 53.365682]},
+  "properties": {"id": 56, "name": "Труда", "direction": ["Коробова","Курортная поликлиника"], "filename": "truda"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9871776, 53.3980588]},
+  "properties": {"id": 142, "name": "Цирк", "direction": ["пл. Мира"], "filename": "cirk"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.985346, 53.4177958]},
+  "properties": {"id": 162, "name": "пр. Ленина", "direction": ["пл. Носова"], "filename": "lenina"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0371264, 53.3987081]},
+  "properties": {"id": 235, "name": "Профсоюзная", "direction": ["Бетонстрой"], "filename": "profsouz"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0814298, 53.4504699]},
+  "properties": {"id": 255, "name": "Башик", "direction": ["Прокатмонтаж"], "filename": "bashik"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9625282, 53.3550937]},
+  "properties": {"id": 3, "name": "144-й микрорайон", "direction": ["Курортная поликлиника"], "filename": "144mr"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0280126, 53.3955718]},
+  "properties": {"id": 234, "name": "Бетонстрой", "direction": ["ТЭЦ","Береговая"], "filename": "betonstroy"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0098635, 53.448781]},
+  "properties": {"id": 184, "name": "Овощехранилище", "direction": ["Дворец Дружбы Народов"], "filename": "ovochex"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9621056, 53.4261319]},
+  "properties": {"id": 172, "name": "Достоевского", "direction": ["Библиотека"], "filename": "dostoevskogo"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0347503, 53.4507784]},
+  "properties": {"id": 202, "name": "Среднеуральская", "direction": ["14 участок"], "filename": "sredneuralskaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9969308, 53.4267009]},
+  "properties": {"id": 208, "name": "1-я Палатка", "direction": ["Дворец Дружбы Народов"], "filename": "1palatca"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0061922, 53.4460821]},
+  "properties": {"id": 183, "name": "Гора Пугачева", "direction": ["Дворец Дружбы Народов"], "filename": "gpugacheva"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0006968, 53.4232024]},
+  "properties": {"id": 211, "name": "Строителей", "direction": ["Центральный переход","пл. Носова"], "filename": "stroiteley"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0323982, 53.4109839]},
+  "properties": {"id": 217, "name": "Броневая", "direction": ["Бетонстрой","ТЭЦ"], "filename": "bronevaja"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [59.0007936, 53.421234]},
+  "properties": {"id": 165, "name": "пл. Носова", "direction": ["Центральный переход"], "filename": "plnosova"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+},
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [58.9782649, 53.3746736]},
+  "properties": {"id": 58, "name": "Энгельса", "direction": ["Коробова","Курортная поликлиника"], "filename": "engelsa"
+    , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
+}
+]}
