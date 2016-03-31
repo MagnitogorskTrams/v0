@@ -961,7 +961,7 @@
 },
 {
   "type": "Feature",
-  "geometry": {"type": "Point", "coordinates": [53.4345279, 58.9614292]},
+  "geometry": {"type": "Point", "coordinates": [58.9614292, 53.4345279]},
   "properties": {"id": 111, "name": "Зеленый рынок", "direction": ["Тимирязева"], "filename": "zelrinok"
     , "marker-size": "small", "marker-symbol": "harbor", "fill": "#3fd"}
 },
