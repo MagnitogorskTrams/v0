@@ -1,4 +1,4 @@
-# Папка для хранения sql
+# РџР°РїРєР° РґР»СЏ С…СЂР°РЅРµРЅРёСЏ sql
 
 ## DATABASE trams
 * TABLE stops
@@ -7,4 +7,3 @@
 * TABLE route_modifications
 * TABLE schedules
 * TABLE ways
-
