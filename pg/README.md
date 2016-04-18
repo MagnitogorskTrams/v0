@@ -1,10 +1,10 @@
-# Toot boodem xraneet' sql
+# Папка для хранения sql
 
-## trams-tararams
-* TABLE public.stops
-* TABLE public.osm_nodes
-* TABLE public.routes
-* TABLE public.route_modifications
-* TABLE public.schedules
-* TABLE public.ways
+## DATABASE trams
+* TABLE stops
+* TABLE osm_nodes
+* TABLE routes
+* TABLE route_modifications
+* TABLE schedules
+* TABLE ways
 
