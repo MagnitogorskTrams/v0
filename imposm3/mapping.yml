@@ -1,0 +1,36 @@
+tables:
+  tram_stops:
+    type: point
+    fields:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    - key: name
+      name: name
+      type: string
+    - key: operator
+      name: operator
+      type: string
+    - key: ref
+      name: ref
+      type: string
+    - key: network
+      name: network
+      type: string
+    type_mappings:
+      points:
+        railway:
+        - tram_stop
+        tram:
+        - 'yes'
+  tram_ways:
+    type: linestring
+    fields:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    mapping:
+      railway:
+      - tram
