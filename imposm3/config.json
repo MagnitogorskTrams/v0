@@ -1,0 +1,6 @@
+{
+	"cachedir": "./cache",
+	"mapping": "mapping.yml",
+	"limitto": "magnitogorsk_border.geojson",
+	"srid": 4326
+}
