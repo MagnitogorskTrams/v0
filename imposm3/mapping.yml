@@ -9,6 +9,12 @@ tables:
     - key: name
       name: name
       type: string
+    - key: alt_name
+      name: alt_name
+      type: string
+    - key: name:old
+      name: name:old
+      type: string
     - key: operator
       name: operator
       type: string
@@ -26,7 +32,7 @@ tables:
       type: string
     - key: tram
       name: tram
-      type: bool
+      type: string
     type_mappings:
       points:
         railway:
