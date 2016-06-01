@@ -32,6 +32,9 @@ way[railway=tram][service=spur]
 node[railway=tram_stop]
 { color:red; fill-color:yellow; opacity:1; }
 
+node[public_transport=stop_position]
+{ color:red; fill-color:white; opacity:0.5; }
+
 node[public_transport=stop_position][tram=yes]
 { color:green; fill-color:lime; opacity:1; }
 
