@@ -118,8 +118,6 @@ func main() {
 					return err
 				}
 				if strings.HasPrefix(cmd, "help") {
-					ans += helpAns
-					
 					api := telebot.GetAPI(ctx)
 					msg := telegram.MessageCfg{
 						BaseMessage: telegram.BaseMessage{
@@ -127,7 +125,7 @@ func main() {
 							ReplyToMessageID: update.Message.MessageID,
 						},
 						ParseMode: telegram.MarkdownMode,
-						Text:      ans,
+						Text:      helpAns,
 					}
 					_, err = api.SendMessage(ctx, msg)
 					return err
