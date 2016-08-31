@@ -15,12 +15,20 @@ import (
 	"golang.org/x/net/context"
 )
 
-func main() {
-	token := flag.String("token", "", "telegram bot token")
-	dbURL := flag.String("db", "", "database URL")
-	debug := flag.Bool("debug", false, "show debug information")
-	flag.Parse()
+var (
+	token *string
+	dbURL *string
+	debug *bool
+)
 
+func init() {
+	token = flag.String("token", "", "telegram bot token")
+	dbURL = flag.String("db", "", "database URL")
+	debug = flag.Bool("debug", false, "show debug information")
+	flag.Parse()
+}
+
+func main() {
 	if *token == "" {
 		log.Fatal("token flag required")
 	}
