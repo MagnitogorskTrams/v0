@@ -117,6 +117,21 @@ func main() {
 					_, err = api.SendMessage(ctx, msg)
 					return err
 				}
+				if strings.HasPrefix(cmd, "help") {
+					ans += helpAns
+					
+					api := telebot.GetAPI(ctx)
+					msg := telegram.MessageCfg{
+						BaseMessage: telegram.BaseMessage{
+							BaseChat:         telegram.BaseChat{ID: update.Message.Chat.ID},
+							ReplyToMessageID: update.Message.MessageID,
+						},
+						ParseMode: telegram.MarkdownMode,
+						Text:      ans,
+					}
+					_, err = api.SendMessage(ctx, msg)
+					return err
+				}
 			}
 		}
 		return nil
@@ -151,3 +166,5 @@ time between '1970-01-01'::date + localtime + '-00:05:00' and '1970-01-01'::date
 and workday = (extract(DOW from now()) not in (0, 6))
 and stop_id = $1
 ORDER BY schedules.time);`
+
+var helpAns = `Ура МГТ!`
