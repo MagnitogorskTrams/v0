@@ -1,4 +1,12 @@
 import curl,re
+import os, os.path, platform
+
+if platform.system() == 'Windows':
+	default_folder = 'd:\\Works\\DOCs\\транспортный эмулятор\\raspisanie\\2016-08-21\\'
+	os.environ['HTTP_PROXY']="http://161.8.100.200:8080"
+	os.environ['HTTPS_PROXY']="http://161.8.100.200:443"
+else:
+	default_folder = '/home/ant/Документы/МГТ/raspisanie/2016-08-21/'
 
 bu="http://www.maggortrans.ru/raspisanie/"
 r=curl.Curl(bu)
@@ -14,9 +22,6 @@ else:
         print(bu+f.strip().decode('utf-8'))
         break
 
-import os.path
-
-default_folder = '/home/ant/Документы/МГТ/raspisanie/2016-08-21/'
 cnt = 0
 for f in h:
     fn = f.strip().decode('utf-8')
@@ -45,11 +50,11 @@ for f in h:
         val = sheet.row_values(0)[0] # получаем значение первой ячейки A1
         # print (val)
         try:
-            stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', val) # "(\w+)"(\w+)).
+            stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', val)
             stop_name = stop_groups.group(1) #.findall(r'"(.*)"').group(0))
             stop_direction = stop_groups.group(2)
         except:
             stop_direction = '----------'
         vals = [sheet.row_values(rownum) for rownum in range(sheet.nrows)] # получаем список значений из всех записей
-        print ('[%s]\t%s -> %s: %d' % (re.match(r'\d+', sheet.name).group(0),stop_name,stop_direction,len(vals)))
+        print ('[%s]\t%s (%d) -> %s' % (re.match(r'\d+', sheet.name).group(0),stop_name,len(vals),stop_direction))
 
