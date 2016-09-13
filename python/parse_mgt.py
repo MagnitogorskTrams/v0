@@ -41,20 +41,55 @@ import xlrd
 
 fld = input("Enter dir name: ")
 if len(fld) == 0 : fld = default_folder
-for f in h:
-    fn = f.strip().decode('utf-8')
+ins = 'INSERT INTO import_xaxa."raw"(stop_id, stop_name, next_stops, route, workday, "time") VALUES (%s, \'%s\', \'%s\', \'%s\', %s, \'%02d:%02d+05:00\');'
+outf = open(default_folder+'insert_raw.sql','w')
+try:
+    outf.write('CREATE TABLE IF NOT EXISTS import_xaxa."raw"(stop_id text,stop_name text,next_stops text,route text,workday boolean,"time" time with time zone) WITH (OIDS=FALSE);')
+    outf.write('ALTER TABLE IF EXISTS import_xaxa."raw" OWNER TO postgres;')
+    for f in h:
+        fn = f.strip().decode('utf-8')
 
-    rb = xlrd.open_workbook(fld + fn,formatting_info=True)
+        rb = xlrd.open_workbook(fld + fn,formatting_info=True)
 
-    for sheet in rb.sheets(): # по всем листам
-        val = sheet.row_values(0)[0] # получаем значение первой ячейки A1
-        # print (val)
-        try:
-            stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', val)
-            stop_name = stop_groups.group(1) #.findall(r'"(.*)"').group(0))
-            stop_direction = stop_groups.group(2)
-        except:
-            stop_direction = '----------'
-        vals = [sheet.row_values(rownum) for rownum in range(sheet.nrows)] # получаем список значений из всех записей
-        print ('[%s]\t%s (%d) -> %s' % (re.match(r'\d+', sheet.name).group(0),stop_name,len(vals),stop_direction))
-
+        for sheet in rb.sheets(): # по всем листам
+            ref = re.match(r'\d+', sheet.name).group(0)
+            # получаем значение первой ячейки A1 - val = sheet.row_values(0)[0]
+            # print (val)
+            #vals = [sheet.row_values(rownum) for rownum in range(sheet.nrows)] # получаем список значений из всех записей
+            workday = None
+            route = None
+            for rownum in range(sheet.nrows):
+                row = sheet.row_values(rownum)
+                #print (row)
+                # if len(row[0])+len(str(row[1])) < 1 : break
+                for colnum in range(len(row)) :
+                    cell = sheet.cell(rownum, colnum)
+                    if cell.value == '№ Маршрута' : break
+                    if cell.value == 'Рабочие дни':
+                        workday = True
+                        break
+                    if cell.value == 'Выходные дни':
+                        workday = False
+                        break
+                    if cell.ctype == xlrd.XL_CELL_BLANK : continue
+                    if colnum == 0:
+                        if rownum == 0:
+                            stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', cell.value)
+                            stop_name = stop_groups.group(1) #.findall(r'"(.*)"').group(0))
+                            stop_direction = stop_groups.group(2).strip()
+                            #print ('[%s]\t%s -> %s' % (ref,stop_name,stop_direction))
+                            break
+                        else:
+                            if cell.ctype == xlrd.XL_CELL_NUMBER:
+                                route = str(int(cell.value))
+                            elif cell.ctype == xlrd.XL_CELL_TEXT:
+                                route = cell.value
+                            continue
+                    if cell.ctype == xlrd.XL_CELL_DATE:
+                        (y, mo, d, h, mi, sec) = xlrd.xldate.xldate_as_tuple(cell.value, 0)
+                    #print (ins % (ref,stop_name,stop_direction, route, workday, h, mi))
+                    curins = ins % (ref,stop_name,stop_direction, route, workday, h, mi) #).decode('utf-8')
+                    outf.write(curins)
+        #break
+finally:
+	outf.close()
