@@ -41,11 +41,13 @@ import xlrd
 
 fld = input("Enter dir name: ")
 if len(fld) == 0 : fld = default_folder
-ins = 'INSERT INTO import_xaxa."raw"(stop_id, stop_name, next_stops, route, workday, "time") VALUES (%s, \'%s\', \'%s\', \'%s\', %s, \'%02d:%02d+05:00\');\n'
-outf = open(default_folder+'insert_raw.sql','w')
+#ins = 'INSERT INTO import_xaxa."raw"(stop_id, stop_name, next_stops, route, workday, "time") VALUES (%s, \'%s\', \'%s\', \'%s\', %s, \'%02d:%02d+05:00\');\n'
+csv = '%s;\'%s\';\'%s\';\'%s\';%s;\'%02d:%02d+05:00\'\n'
+#outf = open(default_folder+'insert_raw.sql','w')
+outf = open(default_folder+'raw.csv','w')
 try:
-    outf.write('CREATE TABLE IF NOT EXISTS import_xaxa."raw"(stop_id text,stop_name text,next_stops text,route text,workday boolean,"time" time with time zone) WITH (OIDS=FALSE);\n')
-    outf.write('ALTER TABLE IF EXISTS import_xaxa."raw" OWNER TO postgres;\n')
+    #outf.write('CREATE TABLE IF NOT EXISTS import_xaxa."raw"(stop_id text,stop_name text,next_stops text,route text,workday boolean,"time" time with time zone) WITH (OIDS=FALSE);\n')
+    #outf.write('ALTER TABLE IF EXISTS import_xaxa."raw" OWNER TO postgres;\n')
     for f in h:
         fn = f.strip().decode('utf-8')
 
@@ -90,8 +92,9 @@ try:
                         if t >= 1 : t = t - int(t)
                         (y, mo, d, h, mi, sec) = xlrd.xldate.xldate_as_tuple(t, 0)
                     #print (ins % (ref,stop_name,stop_direction, route, workday, h, mi))
-                    curins = ins % (ref,stop_name,stop_direction, route, workday, h, mi) #).decode('utf-8')
-                    outf.write(curins)
+                    #curins = ins % (ref,stop_name,stop_direction, route, workday, h, mi) #).decode('utf-8')
+                    curcsv = csv % (ref,stop_name,stop_direction, route, workday, h, mi)
+                    outf.write(curcsv)
         #break
 finally:
     outf.close()
