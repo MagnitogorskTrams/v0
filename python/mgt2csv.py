@@ -1,5 +1,5 @@
 import curl,re
-import os, os.path, platform
+import sys, os, os.path, platform
 
 if platform.system() == 'Windows':
 	default_folder = 'd:\\Works\\DOCs\\транспортный эмулятор\\raspisanie\\2016-08-21\\'
@@ -74,6 +74,7 @@ try:
                         workday = False
                         break
                     if cell.ctype == xlrd.XL_CELL_BLANK or cell.ctype == xlrd.XL_CELL_EMPTY : continue
+                    if cell.ctype == xlrd.XL_CELL_TEXT and len(cell.value.strip()) == 0 : continue
                     if colnum == 0:
                         if rownum == 0:
                             stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', cell.value)
@@ -87,13 +88,24 @@ try:
                             elif cell.ctype == xlrd.XL_CELL_TEXT:
                                 route = cell.value
                             continue
-                    if cell.ctype == xlrd.XL_CELL_DATE:
-                        t = round(cell.value, 9)
-                        if t >= 1 : t = t - int(t)
-                        (y, mo, d, h, mi, sec) = xlrd.xldate.xldate_as_tuple(t, 0)
-                    #print (ins % (ref,stop_name,stop_direction, route, workday, h, mi))
-                    #curins = ins % (ref,stop_name,stop_direction, route, workday, h, mi) #).decode('utf-8')
-                    curcsv = csv % (ref,stop_name,stop_direction, route, workday, h, mi)
+                    try:
+                        (t, h, mi) = (None,None,None)
+                        if cell.ctype == xlrd.XL_CELL_DATE:
+                            t = round(cell.value, 9)
+                            if t >= 1 : t = t - int(t)
+                            (y, mo, d, h, mi, sec) = xlrd.xldate.xldate_as_tuple(t, 0)
+                        elif cell.ctype == xlrd.XL_CELL_TEXT:
+                            (h, mi) = re.match(r'(\d+)[\.:](\d+)', cell.value).groups()
+                            #print (h, mi)
+                        elif cell.ctype == xlrd.XL_CELL_ERROR:
+                            raise
+                        #print (ins % (ref,stop_name,stop_direction, route, workday, h, mi))
+                        #curins = ins % (ref,stop_name,stop_direction, route, workday, h, mi) #).decode('utf-8')
+                        curcsv = csv % (ref,stop_name,stop_direction, route, workday, int(h), int(mi))
+                    except:
+                        print (sys.exc_info())
+                        print(ref,stop_name,stop_direction, route, workday, h, mi)
+                        sys.exit('In the file %s occurred error on cell [%d,%d] of "%s" sheet' % (fn, rownum, colnum, sheet.name))
                     outf.write(curcsv)
         #break
 finally:

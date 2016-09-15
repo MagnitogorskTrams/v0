@@ -1,9 +1,9 @@
 import curl,re
-import os, os.path, platform
+import os, os.path, platform, sys
 
 default_folder = '/home/ant/Документы/МГТ/raspisanie/2016-08-21/'
 
-h = [b'unost.xls']
+h = [b'tss.xls']
 
 import xlrd
 
@@ -49,6 +49,7 @@ for f in h:
                         elif cell.ctype == xlrd.XL_CELL_TEXT:
                             route = cell.value
                         continue
+                (t, h, mi) = (None,None,None)
                 if cell.ctype == xlrd.XL_CELL_DATE:
                     t = round(cell.value, 9)
                     if t >= 1 : t = t - int(t)
@@ -56,8 +57,10 @@ for f in h:
                 elif cell.ctype == xlrd.XL_CELL_TEXT:
                     (h, mi) = re.match(r'(\d+)[\.:](\d+)', cell.value).groups()
                     #print (h, mi)
+                elif cell.ctype == xlrd.XL_CELL_ERROR:
+                    sys.exit('In the file %s occurred error on cell [%d,%d] of "%s" sheet' % (fn, rownum, colnum, sheet.name))
                 #print (ins % (ref,stop_name,stop_direction, route, workday, h, mi))
                 #curins = ins % (ref,stop_name,stop_direction, route, workday, h, mi) #).decode('utf-8')
-                curcsv = csv % (rownum,colnum,ref,stop_name,stop_direction, route, workday, int(h), int(mi))
-                print(curcsv, t, cell.ctype)
+                #curcsv = csv % (rownum,colnum,ref,stop_name,stop_direction, route, workday, int(h), int(mi))
+                print(rownum,colnum,ref,stop_name,stop_direction, route, workday, t, cell.ctype)
     #break
