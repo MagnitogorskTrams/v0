@@ -45,6 +45,7 @@ if len(fld) == 0 : fld = default_folder
 csv = '%s;\'%s\';\'%s\';\'%s\';%s;\'%02d:%02d+05:00\'\n'
 #outf = open(default_folder+'insert_raw.sql','w')
 outf = open(default_folder+'raw.csv','w')
+rdict = dict()
 try:
     #outf.write('CREATE TABLE IF NOT EXISTS import_xaxa."raw"(stop_id text,stop_name text,next_stops text,route text,workday boolean,"time" time with time zone) WITH (OIDS=FALSE);\n')
     #outf.write('ALTER TABLE IF EXISTS import_xaxa."raw" OWNER TO postgres;\n')
@@ -75,20 +76,28 @@ try:
                         break
                     if cell.ctype == xlrd.XL_CELL_BLANK or cell.ctype == xlrd.XL_CELL_EMPTY : continue
                     if cell.ctype == xlrd.XL_CELL_TEXT and len(cell.value.strip()) == 0 : continue
-                    if colnum == 0:
-                        if rownum == 0:
-                            stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', cell.value)
-                            stop_name = stop_groups.group(1) #.findall(r'"(.*)"').group(0))
-                            stop_direction = stop_groups.group(2).strip()
-                            #print ('[%s]\t%s -> %s' % (ref,stop_name,stop_direction))
-                            break
-                        else:
-                            if cell.ctype == xlrd.XL_CELL_NUMBER:
-                                route = str(int(cell.value))
-                            elif cell.ctype == xlrd.XL_CELL_TEXT:
-                                route = cell.value
-                            continue
                     try:
+                        if colnum == 0:
+                            if rownum == 0:
+                                stop_groups = re.match(r'Остановка "(["№,-\/\w\.\s\\]+)"\s?в сторону [\w\.\s\\]*(.*)', cell.value)
+                                stop_name = stop_groups.group(1) #.findall(r'"(.*)"').group(0))
+                                stop_direction = stop_groups.group(2).strip()
+                                #NB! убрать кавычки и поделить на части
+                                #print ('[%s]\t%s -> %s' % (ref,stop_name,stop_direction))
+                                break
+                            else:
+                                if cell.ctype == xlrd.XL_CELL_NUMBER:
+                                    route = str(int(cell.value))
+                                elif cell.ctype == xlrd.XL_CELL_TEXT:
+                                    route = cell.value.strip()
+                                    if route == 'Депо 1' : continue
+                                    # вырезать пробелы в середине
+                                    (route, var) = re.match(r'(\d+)\s*(.*)', route).groups()
+                                    if var in ['Депо 1','д-1','Д -1','Д-1'] : var = 'в Депо-1'
+                                    if var in ['в депо3','в депо 3'] : var = 'в Депо-3'
+                                    if var in ['А','Б'] : route = route + var
+                                    else : route = route + ' ' + var
+                                continue
                         (t, h, mi) = (None,None,None)
                         if cell.ctype == xlrd.XL_CELL_DATE:
                             t = round(cell.value, 9)
